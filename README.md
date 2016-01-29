@@ -1,6 +1,8 @@
 # angular-dgeni-seed
 Generic Dgeni seed based on the angularjs implementation
 
+**Installation**
+
 To build the docs all you need to do is run npm install (in the directory you've downloaded the source to)
 
 ` npm install `
@@ -18,3 +20,21 @@ you can test this documentation site by spinning up the lite-server module
 ` lite-server ` 
 
 This should load the browser to localhost:3000 from here you should be able to navigate to localhost:3000/build/docs/index.html
+
+
+> **Templates Folder**
+> /docs/config/templates/
+> 
+> The templates are how the content is generated for many of the main content items, like the index page, the search, and navigation. 
+
+> **Documentation Deployment Folder**
+> /docs/config/services/deployments/
+> 
+> The documentation deployments are where you define the files needed for a deployment for the documentation site. All the files needed to run both the site and the examples.
+
+> **Content Folder**
+> /docs/content/
+>
+>The content folder is where you put all static content in your documentation site. Those files are all have extension .ngdoc
+
+
