@@ -17,7 +17,7 @@ The documentation is put into the /build/docs folder by default
 
 you can test this documentation site by spinning up the lite-server module
 
-` lite-server ` 
+` npm run docs` 
 
 This should load the browser to localhost:3000 from here you should be able to navigate to localhost:3000/build/docs/index.html
 
