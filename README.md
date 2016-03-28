@@ -15,11 +15,9 @@ Keep in mind the docs are in html5 mode so you'll need to rewrite requests to th
 
 The documentation is put into the /build/docs folder by default
 
-you can test this documentation site by spinning up the lite-server module
+you can test this documentation site by spinning up the docs by executing the following command
 
 ` npm run docs` 
-
-This should load the browser to localhost:3000 from here you should be able to navigate to localhost:3000/build/docs/index.html
 
 
 > **Templates Folder**
